@@ -15,7 +15,7 @@ public class StudentList {
      */
     public static void main(String[] args) {
        
-        Student[] studentList = new Student[4];
+        Student[] studentList = new Student[5];
         Student s1 = new Student();
         s1.setName("Manoj tivari");
         Student s2 = new Student();
@@ -30,6 +30,7 @@ public class StudentList {
         studentList[1]= s2;
         studentList[2]= s3;
         studentList[3]=s4;
+        studentList[4]=s5;
         
         for(Student s : studentList)
         {
